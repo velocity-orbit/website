@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="py-12 px-4 relative overflow-hidden">
       <div className="container max-w-7xl text-white">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-44 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-24 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-4">
               <Image src="/Logo.png" alt="logo" height={30} width={30} />
