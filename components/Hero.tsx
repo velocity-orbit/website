@@ -18,14 +18,13 @@ export default function Hero() {
       >
         <ShaderGradient
           animate="on"
-          axesHelper="on"
           bgColor1="#000000"
           bgColor2="#000000"
           brightness={1}
           cAzimuthAngle={180}
           cDistance={3.9}
           cPolarAngle={115}
-          cameraZoom={0}
+          cameraZoom={1}
           color1="#5606ff"
           color2="#fe8989"
           color3="#000000"
