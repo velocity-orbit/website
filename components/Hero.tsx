@@ -22,11 +22,11 @@ export default function Hero() {
         />
       </ShaderGradientCanvas>
       <div className="h-screen w-full relative">
-        <div className="w-[70%] flex flex-col items-center justify-center gap-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <h1 className="text-white text-center text-6xl font-extrabold ">
+        <div className="w-[90%] sm:w-[80%] md:w-[70%] flex flex-col items-center justify-center gap-6 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <h1 className="text-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold">
             Taking Civilization Beyond Earth
           </h1>
-          <h3 className="text-white text-center text-2xl font-semibold">
+          <h3 className="text-white text-center text-base sm:text-lg md:text-xl lg:text-2xl font-semibold">
             Building high-performance rocket engines and space transportation
             systems for LEO, GEO & Lunar missions.
           </h3>
